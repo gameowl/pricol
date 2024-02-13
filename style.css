@@ -15,6 +15,7 @@
   }
   
   .wrapper {
+    scale: 200%;
     height: 200px;
     width: 300px;
     background-color: #C00022;
@@ -100,15 +101,17 @@
 }
 
 button {
+    scale: 250%;
     position: absolute;
     background-color: #FFC0CB;
     color: #3B4049;
     border: none;
     padding: 10px 20px;
     font-size: 16px;
+    font-weight: bold;
     border-radius: 5px;
     cursor: pointer;
-    margin-top: 100px; /* Adjust the margin to your preference */
+    margin-top: 250px; /* Adjust the margin to your preference */
 }
 
 button:hover {
